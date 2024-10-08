@@ -26,15 +26,16 @@
 
 
 /* Placeholder for Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
 
     /* VARIABLES */
 
     /* Typography */
-  --headingFont: 'Bitter', serif;
-  --bodyFont: 'Inter', sans-serif;
+  --headingFont: 'Titan One', sans-serif;
+  --bodyFont: 'Balsamiq Sans', sans-serif;
 
   --baseFontSize: clamp(0.875rem, 0.7885rem + 0.3846vw, 1.25rem);
 
@@ -139,6 +140,7 @@ body {
 main {
   width: 80vw;
   margin: 0 auto;
+  padding: 1rem 2rem 1rem 3rem;
 }
 
 header {
