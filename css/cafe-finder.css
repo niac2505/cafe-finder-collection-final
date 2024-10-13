@@ -79,7 +79,8 @@ li::marker{
 }
 
 .navbar-item a:hover{
-    font-weight: 500;
+    font-weight: 800;
+    transform:scale(1.5);
 }
 .navbar-item a:hover::after{
     display: inline-block;
@@ -110,15 +111,74 @@ li::marker{
 }
 
 .arrow {
-    padding: 10px;
-    transition: transform .2s;
-    margin: 0 auto;
-    justify-content: left;
-    align-items: left;
-    display:flex;
-    width: 70vw;
+position:absolute;
+top:90px; 
+left:100px; 
+display:block; 
+z-index:999; 
 }
 
-.arrow:hover{
+/*.arrow:hover{
+    transform:scale(1.2);
+}*/
+
+/* lucky lucky cafe */
+.bean-1 {
+    position:absolute;
+    bottom: 250px;
+    right: 1030px;
+    transition: transform .2s;
+}
+
+.bean-1:hover{
     transform:scale(1.2);
 }
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
