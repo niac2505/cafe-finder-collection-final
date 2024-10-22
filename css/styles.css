@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: var(--xlText); }
-h2 { font-size: var(--lgText); color:var(--primary)}
+h2 { font-size: 3rem; color:var(--primary)}
 h3 { font-size: var(--mdText); }
 h4 { font-size: var(--baseText); }
 h5 { font-size: var(--smText); }
@@ -382,6 +382,14 @@ there.
 
 /* Larger than tablet */
 @media (min-width: 1200px) {}
+
+@media screen and (max-width: 1024px)
+{
+  .image-grid{
+    --num-cols: 2;
+    --row-height: 200px;
+  }
+}
 
 .row {
   display:flex;
