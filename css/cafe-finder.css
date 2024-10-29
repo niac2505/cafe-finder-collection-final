@@ -23,13 +23,14 @@ figcaption {
     font-size: 1.25rem;
 }
 
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    grid-template-rows: auto
+    grid-template-rows: auto;
 }
 
 .intro-text {
@@ -164,6 +165,23 @@ li::marker{
     margin-top: 0.25rem;
 } 
 
+.image-grid-5x3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-rows: auto;
+
+    height:auto;
+    grid-column: 1 / 6;
+    grid-row-start: 2;
+    margin-top: 0rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
 .image-grid-4x3 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -178,7 +196,6 @@ li::marker{
     margin-top: 0rem;
     margin-left: 5rem;
     margin-right: 5rem;
-
 }
 
 .image-grid > img {
@@ -194,8 +211,54 @@ li::marker{
 
 .image-grid-col-3 {
     grid-column: span 2;
-    object-fit: cover;
 }
+
+.image-grid-col-4 {
+    grid-column: span 2;
+    grid-row-start: 4;
+}
+
+.music_1 {
+    grid-column: 4/6;
+    grid-row: span 3;
+}
+
+.google-maps-1 {
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row-start: 5;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.amendities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+
+    height:auto;
+    grid-column: 1 / 4;
+    grid-row-start: 4;
+    margin-top: 21rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    }
+    .amendities-grid-center {
+        grid-column: span 2;
+    }
+
+    .amendities-grid-col1 {
+        text-align: center;
+        grid-column: 1/2;
+    }
+
+    .amendities-grid-col2 {
+        text-align: center;
+        grid-column: 2/3;
+    }
 
 /* lucky lucky cafe */
 .bean-1 {

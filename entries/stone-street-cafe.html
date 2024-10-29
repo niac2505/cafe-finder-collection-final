@@ -24,62 +24,108 @@
   <link rel="icon" type="image/png" href="../images/favicon.ico">
 </head>
 
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  </style>
+
 <body>
-<section class="favs-title-text">
-<article class="favs-intro-text">
- <h1>Stone Street Cafe</h1>
- <p>Perfect working space with a breath of fresh air!</p>
- </article>
- </section>
+  <div class="grid-container">
+    <div class="arrow">
+          <a href ="cafe-finder.html">
+           <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
+          </a>
+    </div>
 
- <section class="arrow">
-    <p>
-      <a href ="cafe-finder.html">
-       <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
-      </a>
-     </p>
+<div class="center-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Stone Street Cafe</h1>
+                <p>Ultimate cozy spot with innovative drink options!</p>
+            </article>
+        </section> 
+    </div>
 
-     <style>
-        * {
-          box-sizing: border-box;
-        }
-        
-        /* Create two equal columns that floats next to each other */
-        .column {
-          float: left;
-          width: 50%;
-          padding: 10px;
-        }
-        
-        .column img {
-          margin-top: 12px;
-        }
-        
-        /* Clear floats after the columns */
-        .row:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
-        </style>
+    <div class="image-grid-5x3">
+      <img class="image-grid-col-4" src="../images/stonestreet/stonestreet_1.JPG" alt="outside">
+      <img class="image-grid-col-3" src="../images/stonestreet/stonestreet_2.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_4.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_5.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_6.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_7.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_8.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_9.JPG" alt="outside">
 
-     <div class="row">
-        <div class="column">
-          <img src="../images/stonestreet/stonestreet_1.jpg">
-          <img src="../images/stonestreet/stonestreet_2.jpg">
-          <img src="../images/stonestreet/stonestreet_3.jpg">
-          <img src="../images/stonestreet/stonestreet_4.jpg">
+       <!--
+      <img src="../images/stonestreet/stonestreet_10.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_11.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_12.JPG" alt="outside">
+      -->
+
+
+
+    </div>
+  
+    <div class="drinks-text">
+    <section class="favs-title-text">
+        <article class="favs-intro-text">
+            <h1>My Favorite Drinks!</h1>
+          </article>
+    </section>
+            <div class="column">
+                <img src="../images/stonestreet/coldbrew.PNG" style="width:80%">
+                <figcaption>Coldbrew</figcaption> 
+            </div>
+            <div class="column">
+                <img src="../images/stonestreet/hangover_killer.PNG" style="width:80%">
+                <figcaption>Hangover Killer</figcaption>
+              </div>
+              <div class="column">
+                <img src="../images/stonestreet/latte.PNG" style="width:80%">
+                <figcaption>Cafe Latte</figcaption>
+              </div>
+    </div>
+
+<div class="mood-text">
+  <h2 style="text-align: center;">Mood & Ambiance</h2>
+    <img src="../images/bunnybro/matcha_foam.PNG" style="width:80%">
+      <figcaption>Matcha Einspanner</figcaption> 
+    <img src="../images/bunnybro/toffee_nut.PNG" style="width:80%">
+      <figcaption>Toffee Nut Mocha</figcaption>
+    <img src="../images/bunnybro/seasme.PNG" style="width:80%">
+      <figcaption>Dirty Black Sesame Einspanner</figcaption>
+  </div>
+
+  <div class="right-text">
+    <h2 style="text-align: center;"> Cafe Playlist</h2>
+
+    <audio controls src="path/to/your/music.mp3"> 
+      <source src="path/to/your/music.wav" type="audio/wav" style="width: 120%">
+    </audio>
+    
+    <audio controls src="path/to/your/music.mp3"></audio>
+      <source src="path/to/your/music.wav" type="audio/wav"> 
+    </audio>
+    
+    <audio controls src="path/to/your/music.mp3"></audio>
+      <source src="path/to/your/music.wav" type="audio/wav"> 
+    </audio>
+    </div>
         </div>
-        <div class="column">
-          <img src="../images/stonestreet/stonestreet_5.jpg">
-          <img src="../images/stonestreet/stonestreet_6.jpg">
-          <img src="../images/stonestreet/stonestreet_7.jpg">
-          <img src="../images/stonestreet/stonestreet_8.jpg">
-        </div>
-        <div class="column">
-          <img src="../images/stonestreet/stonestreet_9.jpg">
-          <img src="../images/stonestreet/stonestreet_10.jpg">
-          <img src="../images/stonestreet/stonestreet_11.jpg">
-          <img src="../images/stonestreet/stonestreet_12.jpg">
-        </div>
-      </div>
+
+  </body>
+  </html>

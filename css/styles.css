@@ -240,11 +240,23 @@ p {
   margin-bottom:var(--space-3);
 }
 
-.caption, figcaption {
-  font-size: var(--smText);
-  color: var(--gray-500);
+.figcaption {
+  background-color: var(--primary);
+  color: var(--tertiary);
+  padding: 5px;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
+.caption
+{
+  float: left;
+  background-color: var(--primary);
+  color: var(--tertiary);
+  padding: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+}
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
