@@ -224,20 +224,30 @@ img {
 
 /* Typography */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: var(--headingFont);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-1);
 }
 
 h1 { font-size: var(--xlText); }
 h2 { font-size: 3rem; color:var(--primary)}
-h3 { font-size: var(--mdText); }
-h4 { font-size: var(--baseText); }
-h5 { font-size: var(--smText); }
+h3 { font-size: 1rem var(--mdText); 
+  margin: 0 auto;
+}
+
+h4 { font-size: 0.5rem var(--baseText); 
+  margin: 0 auto;
+}
+
+h5 { 
+  font-family: var(--bodyFont);
+  font-size: var(--smText); 
+  margin: 0 auto;
+}
 
 p {
-  margin-top: 0; 
-  margin-bottom:var(--space-3);
+  font-family: var(--bodyFont);
+  font-size: 2rem var(--smText); 
 }
 
 .figcaption {

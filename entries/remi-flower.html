@@ -25,26 +25,28 @@
 </head>
 
 <style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  </style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      padding: 10px;
+      float: left;
+    }
+    </style>
 
 <body>
-  <div class="grid-container">
+<div class="new-grid">
     <div class="arrow">
           <a href ="cafe-finder.html">
            <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
@@ -54,19 +56,14 @@
 <div class="center-text">
         <section class="favs-title-text">
             <article class="favs-intro-text">
-                <h1>Remi Flowers & Coffee</h1>
-                <p>Shop for cut flowers, plants, and great coffee.!</p>
+                <h1>Remi Flower and Coffee</h1>
+                <p>Unique concept that combines a cozy coffee shop with a beautiful flower shop!</p>
             </article>
         </section> 
     </div>
 
-    <div class="image-grid-5x3">
-      <video class="image-grid-col-4" width="320" height="240" loop>
-        <source src="../images/remi/bear.mp4" type="video/mp4">
-        <source src="../images/remi/bear.ogg" type="video/ogg">
-      Your browser does not support the video tag.
-      </video>
-
+    <div class="image-grid-4x3">
+      <img class="image-grid-col-2" src="../images/bunnybro/outside.jpg" alt="outside">
       <img src="../images/bunnybro/seating.jpg" alt="outside">
       <img src="../images/bunnybro/more_seating.jpg" alt="outside">
       <img src="../images/bunnybro/interior.jpg" alt="outside">
@@ -95,32 +92,71 @@
               </div>
     </div>
 
-<div class="mood-text">
-  <h2 style="text-align: center;">Mood & Ambiance</h2>
-    <img src="../images/bunnybro/matcha_foam.PNG" style="width:80%">
-      <figcaption>Matcha Einspanner</figcaption> 
-    <img src="../images/bunnybro/toffee_nut.PNG" style="width:80%">
-      <figcaption>Toffee Nut Mocha</figcaption>
-    <img src="../images/bunnybro/seasme.PNG" style="width:80%">
-      <figcaption>Dirty Black Sesame Einspanner</figcaption>
-  </div>
+    <div class="mood-text">
+      <h2 style="text-align: center;">Mood & Ambiance</h2>
+          <figcaption>Cozy</figcaption> 
+          <br> 
+          <figcaption>Relaxing</figcaption>
+          <br> 
+          <figcaption>Inviting</figcaption>
+      </div>
 
-  <div class="right-text">
-    <h2 style="text-align: center;"> Cafe Playlist</h2>
+      <div class="right-text">
+        <h2 style="text-align: center;"> Cafe Playlist</h2>
 
-    <audio controls src="path/to/your/music.mp3"> 
-      <source src="path/to/your/music.wav" type="audio/wav" style="width: 120%">
-    </audio>
-    
-    <audio controls src="path/to/your/music.mp3"></audio>
-      <source src="path/to/your/music.wav" type="audio/wav"> 
-    </audio>
-    
-    <audio controls src="path/to/your/music.mp3"></audio>
-      <source src="path/to/your/music.wav" type="audio/wav"> 
-    </audio>
-    </div>
+        <div class="audio-container">
+          <figcaption>You've Got Friend in Me Lofi Edition</figcaption>
+          <audio controls src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3"> 
+            <source src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3" type="audio/mp3" style="width: 120%" center>
+          </audio>
+          
+          <figcaption>Fly Me to the Moon</figcaption>
+          <audio controls src="../images/bunnybro/Fly Me To The Moon.mp3"></audio>
+            <source src="../images/bunnybro/Fly Me To The Moon.mp3" type="audio/mp3"> 
+          </audio>
+          
+          <figcaption>Misty</figcaption>
+          <audio controls src="../images/bunnybro/Misty.mp3"></audio>
+            <source src="../images/bunnybro/Misty.mp3" type="audio/mp3"> 
+          </audio>
+
+        </div>
         </div>
 
+        <div class="amendities-grid">
+          <div class="amendities-grid-center">
+          <h2 style="text-align: center;">Amendities</h2>
+        </div>
+          <div class="amendities-grid-col1">
+            <img src="../images/wifi_1.svg" style="width:30%">
+            <figcaption>Free Wifi</figcaption>  
+            <br> 
+        
+            <img src="../images/toilet-01.svg" style="width:30%">
+            <figcaption>Restrooms</figcaption>
+          </div>
+        
+          <div class="amendities-grid-col2">
+            <img src="../images/chair.svg" style="width:30%">
+            <figcaption>Indoor & Outdoor Seating</figcaption>
+            <br> 
+        
+            <img src="../images/charging.svg" style="width:30%">
+            <figcaption>Outlets</figcaption>
+        </div>
+      </div>
+
+      <div class="info-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Other Information</h1>
+              </article>
+        </section>
+      
+        </div>
+
+
+
+      </div>
   </body>
   </html>
