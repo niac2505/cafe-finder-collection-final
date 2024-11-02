@@ -25,29 +25,31 @@
 </head>
 
 <style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  </style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      padding: 10px;
+      float: left;
+    }
+    </style>
 
 <body>
-  <div class="grid-container">
+<div class="new-grid">
     <div class="arrow">
           <a href ="cafe-finder.html">
-           <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
+           <img src= "../images/arrow.png" style="width: 35px; height: auto;" data-item="cafe4" alt="fav" onclick="toggleFavorite('cafe4')"/>
           </a>
     </div>
 
@@ -55,29 +57,20 @@
         <section class="favs-title-text">
             <article class="favs-intro-text">
                 <h1>Stone Street Cafe</h1>
-                <p>Ultimate cozy spot with innovative drink options!</p>
+                <p>Artisanal quality coffee with a ton of seating!</p>
             </article>
         </section> 
     </div>
 
     <div class="image-grid-5x3">
-      <img class="image-grid-col-4" src="../images/stonestreet/stonestreet_1.JPG" alt="outside">
+      <img class="image-grid-col-2" src="../images/stonestreet/stonestreet_1.JPG" alt="outside">
+      <img class="image-grid-col-2" src="../images/stonestreet/stonestreet_12.JPG" alt="outside">
+      <img class="image-grid-col-2" src="../images/stonestreet/stonestreet_5.JPG" alt="outside">
       <img class="image-grid-col-3" src="../images/stonestreet/stonestreet_2.JPG" alt="outside">
       <img src="../images/stonestreet/stonestreet_4.JPG" alt="outside">
-      <img src="../images/stonestreet/stonestreet_5.JPG" alt="outside">
-      <img src="../images/stonestreet/stonestreet_6.JPG" alt="outside">
-      <img src="../images/stonestreet/stonestreet_7.JPG" alt="outside">
+      <img src="../images/stonestreet/stonestreet_11.JPG" alt="outside">
       <img src="../images/stonestreet/stonestreet_8.JPG" alt="outside">
       <img src="../images/stonestreet/stonestreet_9.JPG" alt="outside">
-
-       <!--
-      <img src="../images/stonestreet/stonestreet_10.JPG" alt="outside">
-      <img src="../images/stonestreet/stonestreet_11.JPG" alt="outside">
-      <img src="../images/stonestreet/stonestreet_12.JPG" alt="outside">
-      -->
-
-
-
     </div>
   
     <div class="drinks-text">
@@ -87,12 +80,12 @@
           </article>
     </section>
             <div class="column">
-                <img src="../images/stonestreet/coldbrew.PNG" style="width:80%">
-                <figcaption>Coldbrew</figcaption> 
+                <img src="../images/stonestreet/hangover_killer.PNG" style="width:80%">
+                <figcaption>Hangover Killer</figcaption> 
             </div>
             <div class="column">
-                <img src="../images/stonestreet/hangover_killer.PNG" style="width:80%">
-                <figcaption>Hangover Killer</figcaption>
+                <img src="../images/stonestreet/coldbrew.PNG" style="width:80%">
+                <figcaption>Cold Brew</figcaption>
               </div>
               <div class="column">
                 <img src="../images/stonestreet/latte.PNG" style="width:80%">
@@ -100,32 +93,107 @@
               </div>
     </div>
 
-<div class="mood-text">
-  <h2 style="text-align: center;">Mood & Ambiance</h2>
-    <img src="../images/bunnybro/matcha_foam.PNG" style="width:80%">
-      <figcaption>Matcha Einspanner</figcaption> 
-    <img src="../images/bunnybro/toffee_nut.PNG" style="width:80%">
-      <figcaption>Toffee Nut Mocha</figcaption>
-    <img src="../images/bunnybro/seasme.PNG" style="width:80%">
-      <figcaption>Dirty Black Sesame Einspanner</figcaption>
-  </div>
+    <div class="mood-text">
+      <h2 style="text-align: center;">Mood & Ambiance</h2>
+          <figcaption>Calm</figcaption> 
+          <br> 
+          <figcaption>Warm</figcaption>
+          <br> 
+          <figcaption>Intimate</figcaption>
+      </div>
 
-  <div class="right-text">
-    <h2 style="text-align: center;"> Cafe Playlist</h2>
+      <div class="right-text">
+        <h2 style="text-align: center;"> Cafe Playlist</h2>
 
-    <audio controls src="path/to/your/music.mp3"> 
-      <source src="path/to/your/music.wav" type="audio/wav" style="width: 120%">
-    </audio>
-    
-    <audio controls src="path/to/your/music.mp3"></audio>
-      <source src="path/to/your/music.wav" type="audio/wav"> 
-    </audio>
-    
-    <audio controls src="path/to/your/music.mp3"></audio>
-      <source src="path/to/your/music.wav" type="audio/wav"> 
-    </audio>
-    </div>
+        <div class="audio-grid">
+          <div class="audio-item">
+          <figcaption>Wildflower</figcaption>
+          <br>
+          <audio controls src="../images/remi/wildflower.mp3"> 
+            <source src="../images/remi/wildflower.mp3" type="audio/mp3" style="width: 120%" center>
+          </audio>
+          </div>
+          
+          <div class="audio-item">
+          <figcaption>Winter Blossom</figcaption>
+          <br>
+          <audio controls src="../images/remi/winter_blossom.mp3"></audio>
+            <source src="../images/remi/winter_blossom.mp3" type="audio/mp3"> 
+          </audio>
+          </div>
+          
+          <div class="audio-item">
+          <figcaption>Flowers</figcaption>
+          <br>
+          <audio controls src="../images/remi/flowers.mp3"></audio>
+            <source src="../images/remi/flowers.mp3" type="audio/mp3"> 
+          </audio>
+          </div>
         </div>
 
+        </div>
+
+        <div class="amendities-grid">
+          <div class="amendities-grid-center">
+          <h2 style="text-align: center;">Amendities</h2>
+        </div>
+        <div class="amendities-grid-col1">
+          <img src="../images/wifi_1.svg" style="width:30%">
+          <figcaption>Free Wifi</figcaption>  
+          <br> 
+      
+          <img src="../images/toilet-01.svg" style="width:30%">
+          <figcaption>Restrooms</figcaption>
+        </div>
+      
+        <div class="amendities-grid-col2">
+          <img src="../images/tree.svg" style="width:30%">
+          <figcaption>Outdoor Patio Seating</figcaption>
+          <br> 
+      
+          <img src="../images/charging.svg" style="width:30%">
+          <figcaption>Outlets</figcaption>
+        </div>
+      </div>
+
+      <div class="info-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Other Information:</h1>
+              </article>
+        </section>
+        </div>
+
+        <div class="hours-text">
+          <section class="favs-title-text">
+              <article class="favs-intro-text">
+                  <h1>Hours</h1>
+                  <figcaption>Sunday:  9AM - 6PM</figcaption>
+                  <br> 
+                  <figcaption>Monday:  8AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Tuesday:  8AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Wednesday:  8AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Thursday:  8AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Friday:  8AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Saturday:  9AM - 6PM</figcaption> 
+                </article>
+          </section>
+          </div>
+
+          <div class="location-text">
+            <section class="favs-title-text">
+                <article class="favs-intro-text">
+                    <h1>Location</h1>
+                    <p>379 Broome St, New York, NY 10013</p>
+                  </article>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.903602632948!2d-73.99914472371968!3d40.7201385371169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25929bd9f734d%3A0xd60dd152344ff637!2sStone%20Street%20Caf%C3%A9!5e0!3m2!1sen!2sus!4v1730577413136!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+
+      </div>
   </body>
   </html>

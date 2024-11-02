@@ -429,3 +429,9 @@ there.
   margin-top: 8px;
   vertical-align: middle;
 }
+
+audio {
+  width: 100%; /* Makes the audio player fill the width of its container */
+  max-width: 600px; /* Limits the maximum width of the audio player */
+  height: 50px; /* Adjusts the height of the audio player */
+}

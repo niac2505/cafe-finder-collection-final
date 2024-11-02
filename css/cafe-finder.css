@@ -323,7 +323,7 @@ li::marker{
 .right-text {
     grid-column: 4 /6;
     grid-row-start: 4;
-    margin-top: 2rem;
+    margin-top: 1.4rem;
     margin-left: 0rem;
     margin-right: 2rem;
     padding: 10px;
@@ -331,20 +331,27 @@ li::marker{
     text-align: center;
 }
 
-.audio-container {
+.audio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: px;
+    grid-row-gap: 20px;
+
     grid-column: 4 /6;
     grid-row-start: 4;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 80px;
 }
 
 .audio-item {
-    display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between title and audio player */
+    align-items: center;
+    gap: 50px; /* Space between title and audio player */
     width: 100%;
 }
+
 
 .info-text {
     text-align: center;
