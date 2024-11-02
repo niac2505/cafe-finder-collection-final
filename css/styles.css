@@ -247,13 +247,13 @@ h5 {
 
 p {
   font-family: var(--bodyFont);
-  font-size: 2rem var(--smText); 
+  font-size: 3rem var(--smText); 
 }
 
 .figcaption {
   background-color: var(--primary);
   color: var(--tertiary);
-  padding: 5px;
+  padding: 10px;
   text-align: center;
   font-size: 1.25rem;
 }

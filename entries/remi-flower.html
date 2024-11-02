@@ -49,7 +49,7 @@
 <div class="new-grid">
     <div class="arrow">
           <a href ="cafe-finder.html">
-           <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
+           <img src= "../images/arrow.png" style="width: 35px; height: auto;" data-item="cafe4" alt="fav" onclick="toggleFavorite('cafe4')"/>
           </a>
     </div>
 
@@ -71,6 +71,11 @@
       <img src="../images/bunnybro/pastry.jpg" alt="outside">
       <img src="../images/bunnybro/togo.jpg" alt="outside">
     </div>
+
+    <div class="cafe-card">
+      <image class="heart-1" src= "../images/heart.png" style="width: 60px; height: auto;" data-item="cafe4" alt="Favorite" onclick="toggleFavorite('cafe4')" />
+</div>
+<script src="script.js"></script>
   
     <div class="drinks-text">
     <section class="favs-title-text">
@@ -79,16 +84,16 @@
           </article>
     </section>
             <div class="column">
-                <img src="../images/bunnybro/matcha_foam.PNG" style="width:80%">
-                <figcaption>Matcha Einspanner</figcaption> 
+                <img src="../images/remi/rose.PNG" style="width:80%">
+                <figcaption>Rose Latte</figcaption> 
             </div>
             <div class="column">
-                <img src="../images/bunnybro/toffee_nut.PNG" style="width:80%">
-                <figcaption>Toffee Nut Mocha</figcaption>
+                <img src="../images/remi/butterfly.PNG" style="width:80%">
+                <figcaption>Butterfly Pea Latte</figcaption>
               </div>
               <div class="column">
-                <img src="../images/bunnybro/seasme.PNG" style="width:80%">
-                <figcaption>Dirty Black Sesame Einspanner</figcaption>
+                <img src="../images/remi/lavender.PNG" style="width:80%">
+                <figcaption>Lavander Latte</figcaption>
               </div>
     </div>
 
@@ -105,22 +110,28 @@
         <h2 style="text-align: center;"> Cafe Playlist</h2>
 
         <div class="audio-container">
-          <figcaption>You've Got Friend in Me Lofi Edition</figcaption>
-          <audio controls src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3"> 
-            <source src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3" type="audio/mp3" style="width: 120%" center>
+          <div class="audio-item">
+          <figcaption>Wildflower</figcaption>
+          <audio controls src="../images/remi/wildflower.mp3"> 
+            <source src="../images/remi/wildflower.mp3" type="audio/mp3" style="width: 120%" center>
           </audio>
+          </div>
           
-          <figcaption>Fly Me to the Moon</figcaption>
-          <audio controls src="../images/bunnybro/Fly Me To The Moon.mp3"></audio>
-            <source src="../images/bunnybro/Fly Me To The Moon.mp3" type="audio/mp3"> 
+          <div class="audio-item">
+          <figcaption>Winter Blossom</figcaption>
+          <audio controls src="../images/remi/winter_blossom.mp3"></audio>
+            <source src="../images/remi/winter_blossom.mp3" type="audio/mp3"> 
           </audio>
+          </div>
           
-          <figcaption>Misty</figcaption>
-          <audio controls src="../images/bunnybro/Misty.mp3"></audio>
-            <source src="../images/bunnybro/Misty.mp3" type="audio/mp3"> 
+          <div class="audio-item">
+          <figcaption>Flowers</figcaption>
+          <audio controls src="../images/remi/flowers.mp3"></audio>
+            <source src="../images/remi/flowers.mp3" type="audio/mp3"> 
           </audio>
-
+          </div>
         </div>
+
         </div>
 
         <div class="amendities-grid">
@@ -128,8 +139,8 @@
           <h2 style="text-align: center;">Amendities</h2>
         </div>
           <div class="amendities-grid-col1">
-            <img src="../images/wifi_1.svg" style="width:30%">
-            <figcaption>Free Wifi</figcaption>  
+            <img src="../images/laptop.svg" style="width:30%">
+            <figcaption>Designated Laptop Areas</figcaption>  
             <br> 
         
             <img src="../images/toilet-01.svg" style="width:30%">
@@ -141,21 +152,49 @@
             <figcaption>Indoor & Outdoor Seating</figcaption>
             <br> 
         
-            <img src="../images/charging.svg" style="width:30%">
-            <figcaption>Outlets</figcaption>
+            <img src="../images/wifi-error.svg" style="width:30%">
+            <figcaption>Spotty Wifi</figcaption>
         </div>
       </div>
 
       <div class="info-text">
         <section class="favs-title-text">
             <article class="favs-intro-text">
-                <h1>Other Information</h1>
+                <h1>Other Information:</h1>
               </article>
         </section>
-      
         </div>
 
+        <div class="hours-text">
+          <section class="favs-title-text">
+              <article class="favs-intro-text">
+                  <h1>Hours</h1>
+                  <figcaption>Sunday:  7AM - 6PM</figcaption>
+                  <br> 
+                  <figcaption>Monday:  7AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Tuesday:  7AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Wednesday:  7AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Thursday:  7AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Friday:  7AM - 6PM</figcaption>
+                  <br>
+                  <figcaption>Saturday:  7AM - 6PM</figcaption> 
+                </article>
+          </section>
+          </div>
 
+          <div class="location-text">
+            <section class="favs-title-text">
+                <article class="favs-intro-text">
+                    <h1>Location</h1>
+                    <p>906 2nd Ave, New York, NY 10017</p>
+                  </article>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.381249506487!2d-73.96922979999998!3d40.7536387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e28f8e8463%3A0xcdc00167f3e02745!2sRemi%20Flower%20%26%20Coffee!5e0!3m2!1sen!2sus!4v1730572671869!5m2!1sen!2sus" width="550" height="400" style="border:0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
       </div>
   </body>
