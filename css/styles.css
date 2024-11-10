@@ -435,3 +435,17 @@ audio {
   max-width: 600px; /* Limits the maximum width of the audio player */
   height: 50px; /* Adjusts the height of the audio player */
 }
+
+@media (max-width: 768px) {
+  .map-container iframe {
+      width: 100%;
+      height: 250px;
+  }
+}
+
+@media (min-width: 769px) {
+  .map-container iframe {
+      width: 100%;
+      height: 400px;
+  }
+}

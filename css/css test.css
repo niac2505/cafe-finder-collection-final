@@ -1,0 +1,165 @@
+/* lucky lucky cafe */
+.bean-1 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 78%; /* Position as a percentage of the parent */
+    left: 35%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-1:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    }
+
+/* bunny&bro cafe */
+.bean-2 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 70%; /* Position as a percentage of the parent */
+    left: 32%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-2:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    }
+
+/* cafe joah */
+.bean-3 {
+    position: absolute;
+    top: 79%; /* Position as a percentage of the parent */
+    left: 62%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-3:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    }  
+
+
+/* remi flower and coffee */
+.bean-4 {
+    position: absolute;
+    top: 63%; /* Position as a percentage of the parent */
+    left: 65%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-4:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    }  
+
+/* stone street cafe*/
+.bean-5 {
+    position: absolute;
+    top: 88%; /* Position as a percentage of the parent */
+    left: 42%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-5:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    }  
+
+/* vanilla gorrilla cafe*/
+.bean-6 {
+    position: absolute;
+    z-index: 2;
+    top: 62%; /* Position as a percentage of the parent */
+    left: 20%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-6:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    } 
+
+/* picky barista */
+.bean-7 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 47%; /* Position as a percentage of the parent */
+    left: 25%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-7:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    } 
+
+/* don Alejo Coffee */
+.bean-8 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 35%; /* Position as a percentage of the parent */
+    left: 83%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-8:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    } 
+
+/* The Oma, shop*/
+.bean-9 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 20%; /* Position as a percentage of the parent */
+    left: 53%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-9:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    } 
+
+/* 787 coffee*/
+.bean-10 {
+    position: absolute;
+    z-index: 2; /* Above the map */
+    top: 48%; /* Position as a percentage of the parent */
+    left: 73%; /* Position as a percentage of the parent */
+    transform: translate(-50%, -50%); /* Center the image */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+    }
+
+.bean-10:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+    } 
+
+
+
+    <div class="audio-grid">
+    <div class="audio-item">
+    <figcaption>You Got a Friend in Me (Lofi)</figcaption>
+    <br>
+    <audio controls src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3"> 
+      <source src="../images/bunnybro/You've Got a Friend in Me Lofi.mp3" type="audio/mp3" style="width: 120%" center>
+    </audio>
+    </div>
+    
+    <div class="audio-item">
+    <figcaption>Misty</figcaption>
+    <br>
+    <audio controls src="../images/bunnybro/Misty.mp3"></audio>
+      <source src="../images/bunnybro/Misty.mp3" type="audio/mp3"> 
+    </audio>
+    </div>
+    
+    <div class="audio-item">
+    <figcaption>Fly Me to the Moon</figcaption>
+    <br>
+    <audio controls src="../images/bunnybro/Fly Me To The Moon.mp3"></audio>
+      <source src="../images/bunnybro/Fly Me To The Moon.mp3" type="audio/mp3"> 
+    </audio>
+    </div>
+  </div>

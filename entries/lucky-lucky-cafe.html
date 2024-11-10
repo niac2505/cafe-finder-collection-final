@@ -24,117 +24,78 @@
   <link rel="icon" type="image/png" href="../images/favicon.ico">
 </head>
 
-<body>
-<section class="favs-title-text">
-<article class="favs-intro-text">
- <h1>Lucky Lucky Cafe</h1>
- <p>Stunning cafe with a good selection of drinks and food options!</p>
- </article>
- </section>
-
- <section class="arrow">
-    <p>
-      <a href ="cafe-finder.html">
-       <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
-      </a>
-     </p>
-<section>
-  
-  <style>
+<style>
     * {
       box-sizing: border-box;
     }
     
-    /* The grid: Four equal columns that floats next to each other */
     .column {
       float: left;
-      width: 25%;
+      width: 33.33%;
       padding: 10px;
     }
     
-    /* Clear floats after the columns */
-    .row:after {
+    /* Clearfix (clear floats) */
+    .row::after {
       content: "";
-      display: table;
       clear: both;
+      display: table;
+      padding: 10px;
+      float: left;
     }
     </style>
 
-  <!-- The grid: four columns -->
-<div class="row">
-  <div class="column">
-    <img src="../images/luckylucky/luckylucky1.webp" alt="Nature" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="../images/luckylucky/luckylucky2.webp" alt="Snow">
-  </div>
-  <div class="column">
-    <img src="../images/luckylucky/luckylucky3.webp" alt="Mountains">
-  </div>
-  <div class="column">
-    <img src="../images/luckylucky/luckylucky4.webp" alt="Lights">
-  </div>
+<body>
+<div class="new-grid">
+    <div class="arrow">
+          <a href ="cafe-finder.html">
+           <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
+          </a>
+    </div>
+
+<div class="center-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Lucky Lucky Cafe</h1>
+                <p>Stunning cafe with a good selection of drinks and food options!</p>
+            </article>
+        </section> 
+    </div>
+
+<div class="image-grid-3x2">
+  <img src="../images/bunnybro/seating.jpg" alt="outside">
+  <img src="../images/bunnybro/more_seating.jpg" alt="outside">
+  <img src="../images/bunnybro/interior.jpg" alt="outside">
+  <img src="../images/bunnybro/drink.jpg" alt="outside">
+  <img src="../images/bunnybro/pastry.jpg" alt="outside">
+  <img src="../images/bunnybro/togo.jpg" alt="outside">
+  <br>
 </div>
 
-&nbsp
+<div class="amendities-grid-2">
+  <div class="amendities-grid-center">
+  <h2 style="text-align: center;">Amendities</h2>
+</div>
+<div class="amendities-grid-2-col1">
+  <img src="../images/wifi_1.svg" style="width:30%">
+  <figcaption>Free Wifi</figcaption>  
+  <br> 
 
-  <h2>My Favorite Drinks!</h2>
-  &nbsp
-
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  </style>
-
-<div class="container">
-  <div class="column">
-    <img src="../images/luckylucky/blue_milk.PNG" style="width:80%">
-    <figcaption>Klein's Blue Banana Milk</figcaption>
-  </div>
-  <div class="column">
-    <img src="../images/luckylucky/straw-matcha.PNG" style="width:80%">
-    <figcaption>Strawberry Matcha Latte</figcaption>
-  </div>
-  <div class="column">
-    <img src="../images/luckylucky/orange_americano.PNG" style="width:80%">
-    <figcaption>Orange Americano</figcaption>
-  </div>
+  <img src="../images/toilet-01.svg" style="width:30%">
+  <figcaption>Restrooms</figcaption>
 </div>
 
-<h2>Mood & Ambiance</h2>
+<div class="amendities-grid-2-col2">
+  <img src="../images/tree.svg" style="width:30%">
+  <figcaption>Outdoor Patio Seating</figcaption>
+  <br> 
 
-&nbsp
+  <img src="../images/charging.svg" style="width:30%">
+  <figcaption>Outlets</figcaption>
+</div>
+</div>
 
-  <h2>My Cafe Playlist</h2>
-<audio controls src="path/to/your/music.mp3"> 
-  <source src="path/to/your/music.wav" type="audio/wav">
-</audio>
+</div>
 
-<audio controls src="path/to/your/music.mp3"></audio>
-  <source src="path/to/your/music.wav" type="audio/wav"> 
-</audio>
-
-<audio controls src="path/to/your/music.mp3"></audio>
-  <source src="path/to/your/music.wav" type="audio/wav"> 
-</audio>
-
-&nbsp
-&nbsp
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12094.340622815376!2d-73.99475595156285!3d40.72714800698585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a6e20ee245%3A0x3838f93a613a5672!2sLucky%20Lucky%20Cafe!5e0!3m2!1sen!2sus!4v1728998522771!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- </body>
- </html>
+</body>
+</html>

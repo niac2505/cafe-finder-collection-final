@@ -37,163 +37,63 @@ figcaption {
     position:relative;
     grid-column: 3/4;
     grid-row: span 5;
-    margin-top:0rem;
-    height: auto;
+    margin-top:-6rem;
     z-index: 1;
 }
 
-/* lucky lucky cafe */
-.bean-1 {
+.bean-1, .bean-2, .bean-3, .bean-4, .bean-5, .bean-6, .bean-7, .bean-8, .bean-9, .bean-10 {
     position: absolute;
-    z-index: 2; /* Above the map */
-    top: 78%; /* Position as a percentage of the parent */
-    left: 35%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-1:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    }
-
-/* bunny&bro cafe */
-.bean-2 {
-    position: absolute;
-    z-index: 2; /* Above the map */
-    top: 70%; /* Position as a percentage of the parent */
-    left: 32%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-2:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    }
-
-/* cafe joah */
-.bean-3 {
-    position: absolute;
-    top: 79%; /* Position as a percentage of the parent */
-    left: 62%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-3:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    }  
-
-
-/* remi flower and coffee */
-.bean-4 {
-    position: absolute;
-    top: 63%; /* Position as a percentage of the parent */
-    left: 65%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-4:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    }  
-
-/* stone street cafe*/
-.bean-5 {
-    position: absolute;
-    top: 88%; /* Position as a percentage of the parent */
-    left: 42%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-5:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    }  
-
-/* vanilla gorrilla cafe*/
-.bean-6 {
-    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+    top: 730px; left: 110px;
     z-index: 2;
-    top: 62%; /* Position as a percentage of the parent */
-    left: 20%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-6:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    } 
-
-/* picky barista */
-.bean-7 {
-    position: absolute;
-    z-index: 2; /* Above the map */
-    top: 47%; /* Position as a percentage of the parent */
-    left: 25%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-7:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    } 
-
-/* don Alejo Coffee */
-.bean-8 {
-    position: absolute;
-    z-index: 2; /* Above the map */
-    top: 35%; /* Position as a percentage of the parent */
-    left: 83%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-8:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    } 
-
-/* The Oma, shop*/
-.bean-9 {
-    position: absolute;
-    z-index: 2; /* Above the map */
-    top: 20%; /* Position as a percentage of the parent */
-    left: 53%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-9:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    } 
-
-/* 787 coffee*/
-.bean-10 {
-    position: absolute;
-    z-index: 2; /* Above the map */
-    top: 68%; /* Position as a percentage of the parent */
-    left: 20%; /* Position as a percentage of the parent */
-    transform: translate(-50%, -50%); /* Center the image */
-    transition: transform 0.3s ease; /* Smooth transition for scaling */
-    }
-
-.bean-10:hover {
-    transform: translate(-50%, -50%) scale(1.5);
-    } 
-
-.menu {
-  display: none; /* Hide by default */
-  position: absolute;
-  background-color: var(--lighter);
-  border: 3px solid var(--secondary);
-  padding: 5px;
-  border-radius: 5px;
-  top: 40px; /* Adjust the position as needed */
-  left: 0;
-  z-index: 1000;
-  white-space: nowrap;
-  box-shadow: 0px 0px 5px rgba(114, 195, 149, 0.2);
-  transition: opacity 1s ease, transform 1s ease; /* Adjust speed here */
+  }
+  
+  /* lucky lucky cafe */
+  .bean-1 { top: 750px; left: 110px; 
+    z-index: 2;
 }
+
+    /* bunny&bro cafe */
+  .bean-2 { top: 650px; left: 95px; }
+
+      /* cafe joah */
+  .bean-3 { top: 810px; left: 210px;
+    z-index: 1;
+}
+
+      /* remi coffee */
+  .bean-4 { top: 640px; left: 220px; }
+
+      /* stone street cafe */
+  .bean-5 { top: 880px; left: 140px; 
+    z-index: 1;
+}
+
+      /* vanilla gorilla */
+  .bean-6 { top: 570px; left: 80px; }
+
+      /* Picky barista */
+  .bean-7 { top: 457px; left: 96px; }
+
+      /* Don Alejo Coffee */
+  .bean-8 { top: 360px; left: 290px; }
+
+      /* The Oma, shop */
+  .bean-9 { top: 220px; left: 185px }
+
+      /* 787 coffee */
+  .bean-10 { top:500px; left: 260px;
+    z-index: 1;
+}
+
+  /* Add specific positions for each bean */
+  
+  /* Hover Effect */
+  .bean-1:hover, .bean-2:hover, .bean-3:hover, .bean-4:hover, .bean-5:hover,
+  .bean-6:hover, .bean-7:hover, .bean-8:hover, .bean-9:hover, .bean-10:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
 
 .bean-1:hover .menu,
 .bean-2:hover .menu,
@@ -203,10 +103,27 @@ figcaption {
 .bean-6:hover .menu,
 .bean-7:hover .menu,
 .bean-8:hover .menu,
-.bean-9:hover .menu {
+.bean-9:hover .menu,
+.bean-10:hover .menu {
   display: block;
   transform: translateY(0); /* Move to original position */
+  z-index: 1000;
 }
+
+.menu {
+    position: absolute;
+    display: none; /* Hide by default */
+    background-color: var(--lighter);
+    border: 3px solid var(--secondary);
+    padding: 5px;
+    border-radius: 5px;
+    top: 40px; /* Adjust the position as needed */
+    left: 0;
+    white-space: nowrap;
+    box-shadow: 0px 0px 5px rgba(114, 195, 149, 0.2);
+    transition: opacity 1s ease, transform 1s ease; /* Adjust speed here */
+    z-index: 1000;
+  }
 
 .grid-container {
     display: grid;
@@ -295,6 +212,22 @@ li::marker{
     text-align: center;
 }
 
+.closer-intro-text {
+    font-size:3rem;
+    margin-top: 0rem;
+    color:var(--primary);
+    position:flex;
+    text-align: center;
+}
+
+.closer-title-text {
+    font-size:3rem;
+    margin-top: 0rem;
+    color:var(--primary);
+    position:flex;
+    text-align: center;
+}
+
 .center-text {
     position:flex;
     text-align: center;
@@ -357,17 +290,23 @@ li::marker{
     text-align: center;
     grid-column: 1 / 6;
     grid-row-start: 5;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
 .arrow {
     grid-column: 1 / 2;
-    position:flex;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    position:absolute;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
     }
+
+.arrow:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+}
 
 
 .title {
@@ -388,6 +327,7 @@ position:flex;
     grid-column: 1 / 2;
     grid-row-start: 5;
     margin-top: 6.5rem;
+    margin-left: 2rem;
     position:absolute;
 } 
 
@@ -413,6 +353,23 @@ position:flex;
 
 .favorited {
     content: img src=('heart.png');
+}
+
+.image-grid-3x2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-rows: auto;
+
+    height:auto;
+    grid-row-start: 2;
+    grid-column: 1 / 4;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
 }
 
 .image-grid-5x3 {
@@ -495,6 +452,7 @@ position:flex;
     margin-left: 2rem;
     margin-right: 2rem;
     }
+
     .amendities-grid-center {
         grid-column: span 2;
     }
@@ -509,12 +467,40 @@ position:flex;
         grid-column: 2/3;
     }
 
+    .amendities-grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 0px;
+    
+        grid-column: 4 / 6;
+        grid-row-start: 2;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        }
+        
+        .amendities-grid-2-center {
+            grid-column: span 2;
+        }
+    
+        .amendities-grid-2-col1 {
+            text-align: center;
+            grid-column: 1/2;
+        }
+    
+        .amendities-grid-2-col2 {
+            text-align: center;
+            grid-column: 2/3;
+        }
+
     .hours-text {
         grid-column: 1/4;
         grid-row-start: 6;
-        margin-top: 0rem;
+        margin-bottom: 0rem;
         margin-left: 0rem;
-        margin-right: 2rem;
+        margin-right: 0rem;
     }
     
     .location-text {
