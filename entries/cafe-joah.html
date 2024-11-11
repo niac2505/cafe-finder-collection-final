@@ -24,22 +24,151 @@
   <link rel="icon" type="image/png" href="../images/favicon.ico">
 </head>
 
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 10px;
+    float: left;
+  }
+</style>
+
 <body>
 <div class="grid-container">
         <div class="arrow">
               <a href ="cafe-finder.html">
                <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
               </a>
-</div>
+            
+            </div>
+
+            <div class="center-text">
+              <section class="favs-title-text">
+                  <article class="favs-intro-text">
+                      <h1>Cafe Joah</h1>
+                      <p>Cozy haven serving Korean-inspired coffee and pastries</p>
+                  </article>
+              </section> 
+          </div>
+
+ <div class="image-grid-4x3">
+  <img class="image-grid-col-2" src="../images/joah/cafe_joah_inside_3.jpg">
+  <img src="../images/joah/cafe_joah_drink.jpg">
+  <img src="../images/joah/cafe_joah_decor.jpg">
+  <img src="../images/joah/cafe_joah_croffle.jpg">
+  <img src="../images/joah/cafe_joah_inside.jpeg">
+  <img src="../images/joah/cafe_joah_outside.jpg">
+  <img src="../images/joah/cafe_joah_coffee.jpg">
+  <br>
 </div>
 
+<div class="wide-center-text">
+  <section class="favs-title-text">
+      <article class="favs-intro-text">
+          <h1>Cafe Playlist</h1>
+          <div class="spotify-row">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1qosh64U6CR5ki1g1Rf2dZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ZEFYW6nPEvIcsIvymgsLk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6YaHXsbMkKKq0NUXsxgLRw?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           </div>
+      </article>
+  </section> 
+</div>
+
+<div class="mood-text-2">
+  <h2 style="text-align: center;">Mood & Ambiance</h2>
+  <br> 
+      <figcaption>Calm</figcaption> 
+      <br> 
+      <br> 
+      <figcaption>Warm</figcaption>
+      <br> 
+      <br> 
+      <figcaption>Intimate</figcaption>
+  </div>
+
+  <div class="bigger-right-text">
+    <h2 style="text-align: center;">My Favorite Drinks</h2>
+    <div class="column">
+      <img src="../images/joah/black_seasme.PNG" style="width:100%">
+      <figcaption>Black Seaseme Latte</figcaption> 
+  </div>
+  <div class="column">
+      <img src="../images/joah/jolly_pong.PNG" style="width:100%">
+      <figcaption>Jolly Pong Latte</figcaption>
+    </div>
+    <div class="column">
+      <img src="../images/joah/hojicha.PNG" style="width:100%">
+      <figcaption>Hojicha Latte</figcaption>
+    </div>
+  </div>
+
+  <div class="wide-center-text">
+    <h2 style="text-align: center;">Amendities</h2>
+            <div class="column">
+                <img src="../images/no-wifi.svg" style="width:25%">
+                <figcaption>No Wifi</figcaption> 
+            </div>
+            <div class="column">
+                <img src="../images/chair.svg" style="width:25%">
+                <figcaption>Limited Seating</figcaption>
+              </div>
+              <div class="column">
+                <img src="../images/drink.svg" style="width:25%">
+                <figcaption>Speakeasy at Night</figcaption>
+              </div>
+    </div>
+
+    <div class="info-text">
+      <h2>Other Information:</h2>
+</div>
+
+<div class="hours-text">
 <section class="favs-title-text">
-<article class="favs-intro-text">
- <h1>Cafe Joah</h1>
- <p>Korean inspired cafe</p>
- </article>
- </section>
+    <article class="favs-intro-text">
+        <h1>Hours:</h1>
+        <figcaption>Sunday:  9AM - 5PM</figcaption>
+        <br> 
+        <figcaption>Monday:  8AM - 5PM</figcaption>
+        <br>
+        <figcaption>Tuesday:  8AM - 5PM</figcaption>
+        <br>
+        <figcaption>Wednesday:  8AM - 5PM</figcaption>
+        <br>
+        <figcaption>Thursday:  8AM - 5PM</figcaption>
+        <br>
+        <figcaption>Friday:  8AM - 5PM</figcaption>
+        <br>
+        <figcaption>Saturday:  9AM - 5PM</figcaption> 
+      </article>
+</section>
+</div>
 
+<div class="location-text">
+  <section class="favs-title-text">
+      <article class="favs-intro-text">
+          <h1>Location:</h1>
+          <figcaption>212 Avenue A, New York, NY 10009</figcaption>
+        </article>
+  </section>
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12093.854337893397!2d-73.9806233!3d40.7298237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2596220320e65%3A0x92a1cd05bb0489f!2sCafe%20Joah!5e0!3m2!1sen!2sus!4v1731284855795!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  </div>
+
+</div>
 
 
  </body>
