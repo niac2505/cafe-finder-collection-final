@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Cafe Finder</title>
+  <meta name="description" content="">
+  <meta name="Sonia Chen" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/cafe-finder.css">
+ 
+   <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../images/favicon.ico">
+</head>
+
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      padding: 10px;
+      float: left;
+    }
+    </style>
+
+<body>
+<div class="new-grid">
+    <div class="arrow">
+          <a href ="cafe-finder.html">
+           <img src= "../images/arrow.png" style="width: 25px; height: auto;" data-item="cafe4" alt="fav" onclick="toggleFavorite('cafe4')"/>
+          </a>
+    </div>
+
+<div class="center-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>The Oma, Shop</h1>
+                <p>Serene escape featuring artisanal coffee and Scandinavian minimalism!</p>
+            </article>
+        </section> 
+    </div>
+
+    <div class="image-grid-4x3">
+      <img class="image-grid-col-2" src="../images/the_oma_shop/outside.jpg" alt="outside">
+      <img class="image-grid-col-3" src="../images/the_oma_shop/counter.jpg" alt="outside">
+      <img src="../images/the_oma_shop/decor.jpg" alt="outside">
+      <img src="../images/the_oma_shop/outside seating.jpg" alt="outside">
+      <img src="../images/the_oma_shop/pastries.jpg" alt="outside">
+      <img src="../images/the_oma_shop/barbar.jpg" alt="outside">
+      <br>
+    </div>
+  
+    <div class="drinks-text">
+    <section class="favs-title-text">
+        <article class="favs-intro-text">
+            <h1>My Favorite Drinks!</h1>
+          </article>
+    </section>
+            <div class="column">
+                <img src="../images/the_oma_shop/apple cider latte.PNG" style="width:80%">
+                <figcaption>Apple Cider Latte</figcaption> 
+            </div>
+            <div class="column">
+                <img src="../images/the_oma_shop/green tea.PNG" style="width:80%">
+                <figcaption>Green Tea</figcaption>
+              </div>
+              <div class="column">
+                <img src="../images/the_oma_shop/cafe au lait.PNG" style="width:80%">
+                <figcaption>Cafe Au Lait</figcaption>
+              </div>
+    </div>
+
+    <div class="mood-text">
+      <h2 style="text-align: center;">Mood & Ambiance</h2>
+          <figcaption>Vibrant</figcaption> 
+          <br> 
+          <figcaption>Quirky</figcaption>
+          <br> 
+          <figcaption>Creative</figcaption>
+
+          <div class="amendities-grid">
+            <div class="amendities-grid-center">
+            <h2 style="text-align: center;">Amendities</h2>
+            <br>
+          </div>
+            <div class="amendities-grid-col1">
+              <img src="../images/chair-03.svg" style="width:30%">
+              <figcaption>Home & Lifestyle Store</figcaption>  
+              <br> 
+          
+              <img src="../images/scissor.svg" style="width:30%">
+              <figcaption>Barbar Shop</figcaption>
+            </div>
+          
+            <div class="amendities-grid-col2">
+              <img src="../images/plant.svg" style="width:30%">
+              <figcaption>Gluten Free & Vegan Options</figcaption>
+              <br> 
+          
+              <img src="../images/chair.svg" style="width:30%">
+              <figcaption>Seating</figcaption>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="right-text">
+        <h2 style="text-align: center;"> Cafe Playlist</h2>
+        <div class="spotify-col">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6TcxxINfeaBEQ35sHMldTD?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7aoJg1wQEqMx1t875H5fww?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6LsPnzPsKAYnA8prGeGfmX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>        </div> 
+        </div>
+
+      <div class="info-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Other Information:</h1>
+              </article>
+        </section>
+        </div>
+
+        <div class="hours-text">
+          <section class="favs-title-text">
+              <article class="favs-intro-text">
+                  <h1>Hours</h1>
+                  <figcaption>Sunday:  8:00AM - 4:00PM</figcaption>
+                  <br> 
+                  <figcaption>Monday:  7:30AM - 5:00PM</figcaption>
+                  <br>
+                  <figcaption>Tuesday:  7:30AM - 5:00PM</figcaption>
+                  <br>
+                  <figcaption>Wednesday:  7:30AM - 5:00PM</figcaption>
+                  <br>
+                  <figcaption>Thursday:  7:30AM - 5:00PM</figcaption>
+                  <br>
+                  <figcaption>Friday:  7:30AM - 5:00PM</figcaption>
+                  <br>
+                  <figcaption>Saturday:  8:00AM - 5:00PM</figcaption> 
+                </article>
+          </section>
+          </div>
+
+          <div class="location-text">
+            <section class="favs-title-text">
+                <article class="favs-intro-text">
+                    <h1>Location</h1>
+                    <figcaption>1707 Amsterdam Ave, New York, NY 10031</figcaption>
+                  </article>
+            </section>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.145150642543!2d-73.95025652309894!3d40.82477533070248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f7a1511b6de1%3A0x38c7b4a238cc42c4!2sThe%20Oma%2C%20Shop%20I!5e0!3m2!1sen!2sus!4v1731437563374!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+      </div>
+  </body>
+  </html>

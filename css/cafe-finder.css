@@ -47,44 +47,61 @@ figcaption {
     transition: transform 0.3s ease;
     top: 730px; left: 110px;
     z-index: 2;
+    filter: brightness(100%);
   }
   
   /* lucky lucky cafe */
   .bean-1 { top: 750px; left: 110px; 
     z-index: 2;
+    filter: brightness(150%);
 }
 
     /* bunny&bro cafe */
-  .bean-2 { top: 650px; left: 95px; }
+  .bean-2 { top: 650px; left: 95px; 
+    filter: brightness(150%);
+}
 
       /* cafe joah */
   .bean-3 { top: 810px; left: 210px;
     z-index: 1;
+    filter: brightness(150%);
 }
 
       /* remi coffee */
-  .bean-4 { top: 640px; left: 220px; }
+  .bean-4 { top: 640px; left: 220px; 
+    filter: brightness(150%);
+}
 
       /* stone street cafe */
   .bean-5 { top: 880px; left: 140px; 
     z-index: 1;
+    filter: brightness(150%);
 }
 
       /* vanilla gorilla */
-  .bean-6 { top: 570px; left: 80px; }
+  .bean-6 { top: 570px; left: 80px; 
+    filter: brightness(150%);
+}
 
       /* Picky barista */
-  .bean-7 { top: 457px; left: 96px; }
+  .bean-7 { top: 457px; left: 96px; 
+    filter: brightness(150%);
+}
 
       /* Don Alejo Coffee */
-  .bean-8 { top: 360px; left: 290px; }
+  .bean-8 { top: 360px; left: 290px; 
+    filter: brightness(150%);
+}
 
       /* The Oma, shop */
-  .bean-9 { top: 220px; left: 185px }
+  .bean-9 { top: 220px; left: 185px;
+    filter: brightness(150%);
+}
 
       /* 787 coffee */
   .bean-10 { top:500px; left: 260px;
     z-index: 1;
+    filter: brightness(150%);
 }
 
   /* Add specific positions for each bean */
@@ -93,6 +110,7 @@ figcaption {
   .bean-1:hover, .bean-2:hover, .bean-3:hover, .bean-4:hover, .bean-5:hover,
   .bean-6:hover, .bean-7:hover, .bean-8:hover, .bean-9:hover, .bean-10:hover {
     transform: translate(-50%, -50%) scale(1.5);
+    filter: brightness(100%);
   }
 
 .bean-1:hover .menu,
@@ -326,7 +344,7 @@ li::marker{
 .arrow {
     grid-column: 1 / 2;
     position:absolute;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-left: 4rem;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
@@ -540,7 +558,7 @@ position:flex;
             .amendities-grid-3-center {
                 grid-column: span 2;
                 grid-row-start: 1;
-                margin-top: 0rem;
+                margin-top: -3rem;
             }
         
             .amendities-grid-3-col1 {
