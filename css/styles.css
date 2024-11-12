@@ -230,7 +230,7 @@ h1, h2, h3, h4, h6 {
 }
 
 h1 { font-size: var(--xlText); }
-h2 { font-size: 3rem; color:var(--primary)}
+h2 { font-size: 2.75rem; color:var(--primary)}
 h3 { font-size: 1rem var(--mdText); 
   margin: 0 auto;
 }

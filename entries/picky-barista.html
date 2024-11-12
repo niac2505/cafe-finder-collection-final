@@ -24,87 +24,146 @@
   <link rel="icon" type="image/png" href="../images/favicon.ico">
 </head>
 
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      padding: 10px;
+      float: left;
+    }
+    </style>
+
 <body>
-<div class="grid-container">
-        <div class="arrow">
-              <a href ="cafe-finder.html">
-               <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
-              </a>
-            
-            </div>
 
-            <div class="center-text">
-              <section class="favs-title-text">
-                  <article class="favs-intro-text">
-                      <h1>Cafe Joah</h1>
-                      <p>Cozy haven serving Korean-inspired coffee and pastries</p>
-                  </article>
-              </section> 
-          </div>
+<div class="new-grid">
+    <div class="arrow">
+          <a href ="cafe-finder.html">
+           <img src= "../images/arrow.png" style="width: 35px; height: auto;"/>
+          </a>
+    </div>
 
- <div class="image-grid-4x3">
-  <img class="image-grid-col-2" src="../images/joah/cafe_joah_inside_3.jpg">
-  <img src="../images/joah/cafe_joah_drink.jpg">
-  <img src="../images/joah/cafe_joah_decor.jpg">
-  <img src="../images/joah/cafe_joah_croffle.jpg">
-  <img src="../images/joah/cafe_joah_inside.jpeg">
-  <img src="../images/joah/cafe_joah_outside.jpg">
-  <img src="../images/joah/cafe_joah_coffee.jpg">
+<div class="center-text">
+        <section class="favs-title-text">
+            <article class="favs-intro-text">
+                <h1>Picky Barista</h1>
+                <p>Family-owned, cozy, and hip coffee shop with a European vibe!</p>
+            </article>
+        </section> 
+    </div>
+
+<div class="image-grid-3x2">
+  <img src="../images/picky_barista/outside.1.jpg" alt="outside">
+  <img src="../images/picky_barista/seats.jpg" alt="outside">
+  <img src="../images/picky_barista/coffee.jpg" alt="outside">
+  <img src="../images/picky_barista/pastries.jpg" alt="outside">
+  <img src="../images/picky_barista/seats.webp" alt="outside">
+  <img src="../images/picky_barista/more coffee.jpg" alt="outside">
   <br>
 </div>
 
-<div class="wide-center-text">
-  <section class="favs-title-text">
-      <article class="favs-intro-text">
-          <h1>Cafe Playlist</h1>
-          <div class="spotify-row">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1qosh64U6CR5ki1g1Rf2dZ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ZEFYW6nPEvIcsIvymgsLk?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6YaHXsbMkKKq0NUXsxgLRw?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-           </div>
-      </article>
-  </section> 
+<div class="amendities-text">
+  <h2 style="text-align: center;">Amendities</h2>
+  <img src="../images/wifi_1.svg" style="width:20%">
+  <figcaption>Free Wifi</figcaption>  
+  <br> 
+  <img src="../images/toilet-01.svg" style="width:20%">
+  <figcaption>Restrooms</figcaption>  
+  <br> 
+  <img src="../images/chair.svg" style="width:20%">
+  <figcaption>Tons of Seating</figcaption>  
 </div>
+
+
 
 <div class="mood-text-2">
   <h2 style="text-align: center;">Mood & Ambiance</h2>
   <br> 
-      <figcaption>Calm</figcaption> 
+      <figcaption>Hip</figcaption> 
       <br> 
       <br> 
-      <figcaption>Warm</figcaption>
+      <figcaption>Rustic</figcaption>
       <br> 
       <br> 
-      <figcaption>Intimate</figcaption>
-  </div>
-
-  <div class="amendities-grid-2">
-    <div class="amendities-grid-2-center">
-    <h2 style="text-align: center;">Amendities</h2>
-  </div>
-  <div class="amendities-grid-2-col1">
-    <img src="../images/no-wifi.svg" style="width:20%">
-    <figcaption>No Wifi</figcaption>  
-    <br> 
-
-    <img src="../images/toilet-01.svg" style="width:20%">
-    <figcaption>No Restrooms</figcaption>
-  </div>
-
-  <div class="amendities-grid-2-col2">
-    <img src="../images/tree.svg" style="width:20%">
-    <figcaption>Limited Seating</figcaption>
-    <br> 
-
-    <img src="../images/charging.svg" style="width:20%">
-    <figcaption>Outlets</figcaption>
-  </div>
+      <figcaption>Charming</figcaption>
 </div>
 
-
-
+  <div class="bigger-right-text">
+    <h2 style="text-align: center;">My Favorite Drinks</h2>
+    <div class="column">
+      <img src="../images/picky_barista/london fog latte.PNG" style="width:100%">
+      <figcaption>London Fog Latte</figcaption> 
+  </div>
+  <div class="column">
+      <img src="../images/picky_barista/tumeric.PNG" style="width:100%">
+      <figcaption>Tumeric Latte</figcaption>
+    </div>
+    <div class="column">
+      <img src="../images/picky_barista/mocha.PNG" style="width:100%">
+      <figcaption>Mocha</figcaption>
+    </div>
   </div>
 
- </body>
- </html>
+  <div class="wide-center-text">
+    <section class="favs-title-text">
+        <article class="favs-intro-text">
+            <h1>Cafe Playlist</h1>
+            <div class="spotify-row">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4dOfkOBIsUDe2Wrxz24DDO?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1GNBUGLY90p5vP6z1eEA7k?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2WdAV1VqmllcEznKlVOFxG?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>            </div>
+        </article>
+    </section> 
+  </div>
 
+  <div class="info-text">
+    <h2>Other Information:</h2>
+</div>
+
+<div class="hours-text">
+<section class="favs-title-text">
+  <article class="favs-intro-text">
+      <h1>Hours:</h1>
+      <figcaption>Sunday:   8:00PM - 7:00PM</figcaption>
+      <br> 
+      <figcaption>Monday:  7:00AM - 7:00PM</figcaption>
+      <br>
+      <figcaption>Tuesday:  7:00AM - 7:00PM</figcaption>
+      <br>
+      <figcaption>Wednesday:  7:00AM - 7:00PM</figcaption>
+      <br>
+      <figcaption>Thursday:  7:00AM - 7:00PM</figcaption>
+      <br>
+      <figcaption>Friday:  7:00AM - 7:00PM</figcaption>
+      <br>
+      <figcaption>Saturday:  8:00PM - 7:00PM</figcaption> 
+    </article>
+</section>
+</div>
+
+<div class="location-text">
+<section class="favs-title-text">
+    <article class="favs-intro-text">
+        <h1>Location:</h1>
+        <figcaption>245 W 72nd St, New York, NY 10023</figcaption>
+      </article>
+</section>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24166.579192546757!2d-73.99083777736713!3d40.78791846843309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259aea003811f%3A0x6184fe47da190f93!2sPicky%20Barista!5e0!3m2!1sen!2sus!4v1731381914163!5m2!1sen!2sus" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+</div>
+
+</body>
+</html>
