@@ -627,3 +627,35 @@ position:flex;
     margin-right: 0rem;
     margin-left: 0rem;
 }
+
+.button {
+    display: flex; /* Aligns items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #CDD6B1;
+    cursor: pointer;
+    color: #333;
+    gap: 10px; /* Adds space between the image and text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .image-text-button img {
+    width: 20px; /* Set image size */
+    height: 20px;
+  }
+  
+  .image-text-button span {
+    margin: 0; /* Ensures no extra margin */
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+    transform: scale(1.05); /* Slightly enlarges the button */
+  }
+  
+  .button:active {
+    transform: scale(0.95); /* Slightly shrinks on click */
+  }
+  
