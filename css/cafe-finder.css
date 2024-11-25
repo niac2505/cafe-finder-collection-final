@@ -25,11 +25,11 @@ figcaption {
 
 
 .grid-map-container {
-    position: relative; /* Position context for absolute positioning */
+    position: relative;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    height: auto; /* Height will adjust based on the image */
+    height: auto; 
     margin: auto;
 }
 
@@ -103,8 +103,6 @@ figcaption {
     z-index: 1;
     filter: brightness(150%);
 }
-
-  /* Add specific positions for each bean */
   
   /* Hover Effect */
   .bean-1:hover, .bean-2:hover, .bean-3:hover, .bean-4:hover, .bean-5:hover,
@@ -124,7 +122,7 @@ figcaption {
 .bean-9:hover .menu,
 .bean-10:hover .menu {
   display: block;
-  transform: translateY(0); /* Move to original position */
+  transform: translateY(0); 
   z-index: 1000;
 }
 
@@ -139,7 +137,7 @@ figcaption {
     left: 0;
     white-space: nowrap;
     box-shadow: 0px 0px 5px rgba(114, 195, 149, 0.2);
-    transition: opacity 1s ease, transform 1s ease; /* Adjust speed here */
+    transition: opacity 1s ease, transform 1s ease; 
     z-index: 1000;
   }
 
@@ -336,7 +334,7 @@ li::marker{
 .audio-item {
     flex-direction: column;
     align-items: center;
-    gap: 50px; /* Space between title and audio player */
+    gap: 50px; 
     width: 100%;
 }
 
@@ -642,7 +640,7 @@ position:flex;
 
 .spotify-row {
     display: flex;
-    column-gap: 20px; /* Adjust this value to set the desired space between songs */
+    column-gap: 20px;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -652,8 +650,8 @@ position:flex;
 
 .spotify-col {
     display: flex;
-    flex-direction: column; /* Stack iframes vertically */
-    row-gap: 3rem; /* Adjust this value to set the desired space between songs */
+    flex-direction: column;
+    row-gap: 3rem;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -662,15 +660,15 @@ position:flex;
 }
 
 .button {
-    display: flex; /* Aligns children (image and text) horizontally */
-    align-items: center; /* Vertically centers the image and text */
-    justify-content: center; /* Horizontally centers the image and text */
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
     padding: 10px;
     border-radius: 10px;
     background-color: #FBF3BC; 
     cursor: pointer;
     color: #333;
-    gap: 10px; /* Adds space between the image and text */
+    gap: 10px; 
     transition: background-color 0.3s ease, transform 0.2s ease;
     grid-column: 2/5;
     margin-top: 5rem;
@@ -694,10 +692,10 @@ position:flex;
     font-family: var(--headingFont);
     color: #283618;
     text-decoration: none;
-    position: relative; /* Allows vertical positioning */
-    top: -30px; /* Moves the text upwards */
+    position: relative;
+    top: -30px;
     border: none;
-    position: relative; /* Enables positioning */
+    position: relative; 
 }
 
 .button:hover {
@@ -710,45 +708,45 @@ position:flex;
 }
   
 .image-container {
-    display: flex; /* Use flexbox to layout columns */
-    justify-content: space-between; /* Evenly space out the columns */
-    gap: 10px; /* Optional: Add space between columns */
-    position: relative; /* Ensures the popups are positioned relative to this container */
+    display: flex; 
+    justify-content: space-between;
+    gap: 10px; 
+    position: relative; 
 }
 
 .column {
-    flex: 1; /* Ensures each column takes equal width */
-    text-align: center; /* Centers the content inside each column */
-    position: relative; /* To position the popup relative to this column */
+    flex: 1; 
+    text-align: center; 
+    position: relative;
 }
 
 .image-container img {
-    width: 100%; /* Ensure images are responsive */
-    border-radius: 5px; /* Optional: add border-radius */
+    width: 100%; 
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .popup {
     position: absolute;
-    bottom: 100%; /* Positions above the image */
+    bottom: 100%; 
     left: 50%;
-    transform: translateX(-50%); /* Centers the popup horizontally */
+    transform: translateX(-50%); 
     background-color: var(--lighter);
     border: 3px solid var(--secondary);
     color: #283618;
     padding: 10px;
     border-radius: 5px;
     font-size: 1rem;
-    opacity: 0; /* Initially hidden */
+    opacity: 0; 
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.5s ease;
-    z-index: 1000; /* Ensure the popup is above the image */
-    max-width: 300px; /* Optional: Set a max width */
+    z-index: 1000; 
+    max-width: 300px; 
     width: 100%;
 }
 
 .column:hover .popup {
-    opacity: 1; /* Show popup on hover */
+    opacity: 1; 
     visibility: visible;
 }
 
