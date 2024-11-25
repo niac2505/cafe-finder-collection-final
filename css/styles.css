@@ -245,6 +245,12 @@ h5 {
   margin: 0 auto;
 }
 
+h6 { 
+  font-family: var(--bodyFont);
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
 p {
   font-family: var(--bodyFont);
   font-size: 3rem var(--smText); 
@@ -267,6 +273,7 @@ p {
   text-align: center;
   font-size: 1.25rem;
 }
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
